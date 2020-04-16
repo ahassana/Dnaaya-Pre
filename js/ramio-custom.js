@@ -38,10 +38,10 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   // Loader Start
   // --------------------------------------------- //
-  setTimeout(function(){
-    $(".loader-logo").removeClass('slideInDown').addClass('fadeOutUp');
+  
+   /*  $(".loader-logo").removeClass('slideInDown').addClass('fadeOutUp');
     $(".loader-caption").removeClass('slideInUp').addClass('fadeOutDown');
-  },600);
+   */
   // --------------------------------------------- //
   // Loader End
   // --------------------------------------------- //
@@ -49,10 +49,10 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   // Main Section Loading Animation Start
   // --------------------------------------------- //
-  setTimeout(function(){
+  
     $(".loader").addClass('loaded');
     $("#main").addClass('loaded');
-  },1200);
+ 
   // --------------------------------------------- //
   // Main Section Loading Animation End
   // --------------------------------------------- //
