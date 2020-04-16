@@ -8,9 +8,9 @@
     <title>DNAAYA</title>
 
     <!-- Meta Tags-->
-    <meta name="description" content="Ramio - incredible coming soon template to kick-start your project">
-    <meta name="keywords" content="ramio, coming soon, under construction, template, coming soon page, html5, css3">
-    <meta name="author" content="mix_design">
+    <meta name="description" content="Hi! We’re DNAAYA, a team of visionary Egyptian tech geeks with a socially-responsible mission: to help parents and children live safer and better educated lives – through the lens of technology.">
+    <meta name="keywords" content="dnaaya, geeks, tech, technology, acc, develop, under construction, developer, coming soon page, html5, css3">
+    <meta name="author" content="Dnaaya">
 
     <!-- Viewport Meta-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,9 +48,40 @@
     </style>
     <!-- First Visible Screen CSS End-->
     <style>
+      .about-photo {
+          background-image:url(img/about.png);
+        }
+        #partner {
+          background-image:url(img/about.png);
+        }
+        #home {
+          background-image:url(img/home.png);
+        }
+        #contacts {
+          background-image:url(img/contact.png);
+        }
       @media only screen and (max-width:1024px) {
         .my-gallery figure figcaption h4 {
           display: none;
+        }
+        
+      }
+      @media only screen and (max-width:768px) {
+        .about-photo {
+          background-image:url(img/about.png);
+          background-size: 100% 100%;
+        }
+        #partner {
+          background-image:url(img/about.png);
+          background-size: 100% 100%;
+        }
+        #home {
+          background-image:url(img/home.png);
+          background-size: 100% 100%;
+        }
+        #contacts {
+          background-image:url(img/contact.png);
+          background-size: 110% 110%;
         }
       }
     </style>
@@ -132,7 +163,7 @@
 
             <!-- Logo Start-->
             <div class="logo">
-              <img src="img/logo.png" style="width: 20%;margin-bottom: -88px;" alt="Dnaaya Logo">
+              <img src="img/logo.png" style="width: 30%;margin-bottom: -88px;" alt="Dnaaya Logo">
             </div>
             <!-- Logo End-->
 
@@ -141,7 +172,7 @@
               <nav>
                 <ul>
                   <li><a href="#" id="about-trigger">About us</a></li>
-                  <li><a href="#" id="works-trigger">Our clients</a></li>
+                  <li><a href="#" id="works-trigger">Our partners</a></li>
                   <li><a href="#" id="contact-trigger">Contact</a></li>
                 </ul>
               </nav>
@@ -175,11 +206,11 @@
             <div class="headline">
 
               <!-- Headline Content Start -->
-              <h1>
-                Developing 
+              <h3>
+                The website
                 <br>
-                for our future
-              </h1>
+                is currently under remodeling
+              </h3>
               <p class="headline-text">
                 We are preparing something amazing and exciting for you.
               </p>
@@ -200,7 +231,7 @@
         <div class="main-media col-xs-12 col-lg-6">
 
           <!-- Main Section Image & Background Effect Start -->
-          <div class="image" style="background-image:url(img/home.png);">
+          <div id="home" class="image">
 
             <!-- Color Layer Start -->
             
@@ -264,7 +295,7 @@
         <!-- About Info Scroll End-->
 
         <!-- About Single Photo Static Start-->
-        <div class="static about-photo fullheight" style="background-image:url(img/about.png);"></div>
+        <div class="static about-photo fullheight"></div>
         <!-- About Single Photo Static End-->
 
       </div>
@@ -273,13 +304,12 @@
     <!-- About Us Section End-->
 
     <!-- Our Works Section Start-->
-    <section id="works" class="content-section works">
+    <section id="works" class="content-section about">
 
       <div class="container-fluid fullheight">
 
-        <!-- Works Info Scroll Start-->
-        <div class="scroll scroll-left works-info">
-
+        <!-- About Info Scroll Start-->
+        <div class="scroll scroll-left about-info">
           <div class="blocks-container">
 
             <!-- Close Button Start -->
@@ -293,105 +323,26 @@
             <!-- Section Title Start -->
             <div class="content-block section-title">
               <h2>
-                Our clients
+                Our partners
               </h2>
+              <!-- <span>Just awesome <em>template</em></span> -->
+              
             </div>
             <!-- Section Title End -->
 
-            <!-- Team Block Start -->
-            
-            <!-- Team Block End -->
+            <!-- Features Start -->        
+            <!-- Features End -->
+
+            <!-- Blockquote Start -->           
+            <!-- Blockquote End -->
 
           </div>
-
         </div>
-        <!-- Works Info Scroll End-->
+        <!-- About Info Scroll End-->
 
-        <!-- Works Gallery Static Start-->
-        <div class="static works-gallery fullheight">
-
-          <!-- Works Gallery Start -->
-          <div class="gallery" style="background-color: white;">
-            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <img style="opacity: 1;width: 90%;height: auto;" src="img/US_Web.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-                
-                <figcaption class="works-description" itemprop="caption description">
-                  <h4>
-                    US Embassy
-                  </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <img style="opacity: 1;width: 90%;" src="img/ogilvy.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-              
-                <figcaption class="works-description" itemprop="caption description">
-                  <h4>
-                    Ogilvy
-                  </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <img style="opacity: 1;width: 90%;" src="img/Peacock_Web.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-              
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>
-                  Peacock for art
-                </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <img style="opacity: 1;width: 90%;" src="img/delegata.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-              
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>
-                  Delegata
-                </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <img style="opacity: 1;width: 90%;" src="img/philips.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-              
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>
-                  Philips
-                </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-              <!-- Works Gallery Single Item Start -->
-              <figure class="col-lg-4 col-md-12 col-xs-12 col-sm-12" col-sm-3 itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                <img style="opacity: 1;width: 90%;" src="img/soleek.png" class="works-image" itemprop="thumbnail" alt="Image description" />
-              
-              <figcaption class="works-description" itemprop="caption description">
-                <h4>
-                  Soleek lab
-                </h4>
-                </figcaption>
-              </figure>
-              <!-- Works Gallery Single Item End -->
-
-            </div>
-          </div>
-          <!-- Works Gallery End -->
-
-        </div>
-        <!-- Works Gallery Static End-->
+        <!-- About Single Photo Static Start-->
+        <div id="partner" class="static about-photo fullheight"></div>
+        <!-- About Single Photo Static End-->
 
       </div>
 
@@ -421,6 +372,8 @@
               <h2>
                 Get in touch
               </h2>
+              <p>
+                Due to Covid 19 pandemic we are currently working from home <br><b style="font-weight: 900;"> stay home -- stay safe</b>
               </p>
             </div>
             <!-- Section Title End -->
@@ -491,7 +444,7 @@
         <!-- Contact Info & Form Scroll End-->
 
                 <!-- About Single Photo Static Start-->    
-                <div class="static about-photo fullheight contact-map map" style="background-image:url(img/contact.png)">
+                <div id="contacts" class="static about-photo fullheight contact-map map">
                 </div>
                 <!-- About Single Photo Static End-->
 
